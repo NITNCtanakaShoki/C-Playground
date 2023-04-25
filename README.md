@@ -37,6 +37,8 @@ project
 
 次のコマンドをプロジェクトディレクトリからターミナルで実行してください
 
+!!! WindowsやLinuxなどでは`docker compose`の代わりに`docker-compose`の場合があります。
+
 ```bash
 docker compose up -d
 ```

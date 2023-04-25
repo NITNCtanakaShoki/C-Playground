@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  app:
+    image: c-playground:latest
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    tty: true
